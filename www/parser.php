@@ -10,8 +10,8 @@ require_once '../vendor/autoload.php';
 
 
 $vk = new VKApiClient();
-$access_token = "ba57e9d1ba57e9d1ba57e9d12fba259b05bba57ba57e9d1e48d4777fa2da2c985fac452";
-$group_access_token = "150a2c1c9a257bc301c859c824ebcefaf960fa1c3123e93b66b77121c6f29d18ea789592a091848e0a782";
+$access_token = "";
+$group_access_token = "";
 
 
 $response = $vk->users()->get($access_token, array(
